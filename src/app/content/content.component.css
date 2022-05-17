@@ -1,0 +1,99 @@
+.content{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
+.student-form h4{
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.student-form label{
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 5px 0;
+}
+
+.student-form input{
+    width: 350px;
+    padding: 10px;
+    margin-bottom: 10px;
+    outline: 1px solid #888888;
+    border: none;
+    border-radius: 3px;
+}
+
+.student-form input:hover{
+    outline: 1px solid #4934eb;
+}
+
+.student-form button{
+    color: #fff;
+    width: 100%;
+    margin: 14px 0;
+    padding: 16px;
+    background-color: #4934eb;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+
+.student-form button:hover{
+    background-color: #3927bb;
+}
+
+.student-display{
+    width: 50%;
+}
+
+.student-display .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px;
+    color: #fff;
+    background-color: #4934eb;
+}
+
+.student-display .header p{
+    margin: 0;
+    padding: 0;
+}
+
+.student-display .btns{
+    margin: 15px 0;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.student-display .btns button{
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 0.5px 0.5px 2px 0.5px #888888;
+}
+
+.student-display .btns button:hover{
+    background-color: #cbcbcb;
+    box-shadow: none;
+}
+
+.allStudent {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
